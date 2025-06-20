@@ -29,31 +29,6 @@ Contact page with company information, office address (Novosibirsk location), ph
 
 
 
-## Resources
-- Original Construction Website (reference_site): https://novosibirsk.kamprok.ru/
-- Company Logo (asset): https://novosibirsk.kamprok.ru/img/1015/logo.png
-- Hero Background Image (asset): https://novosibirsk.kamprok.ru/img/1015/main-top.jpg
-- Brick Houses Service Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_doma-iz-kirpicha.jpg
-- Frame Houses Service Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_karkasnye-doma.jpg
-- Gas Concrete Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_doma-iz-gazobetona.jpg
-- Timber Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_profilirovannyj-brus.jpg
-- Log Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_ocilindrovanoe-brevno.jpg
-- SIP Panels Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_doma-iz-sip-panelej.jpg
-- Foam Block Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_doma-iz-penobloka.jpg
-- Double Timber Houses Image (asset): https://novosibirsk.kamprok.ru/img/1015/s_doma-iz-dvojnogo-brusa.jpg
-- Design Services Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_proektirovanie-domov.jpg
-- Landscaping Services Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_blagoustrojstvo.jpg
-- Septic Installation Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_ustanovka-septika.jpg
-- Cadastral Work Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_kadastrovye-raboty.jpg
-- Water Supply Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_vodosnabzhenie.jpg
-- Turnkey Construction Image (asset): https://novosibirsk.kamprok.ru/img/1015/t_stroitelstvo-domov.jpg
-- Project Gallery Image 1 (asset): https://novosibirsk.kamprok.ru/img/1015/gs_1.jpg
-- Project Gallery Image 2 (asset): https://novosibirsk.kamprok.ru/img/1015/gs_2.jpg
-- Project Gallery Image 3 (asset): https://novosibirsk.kamprok.ru/img/1015/gs_3.jpg
-- Project Gallery Image 4 (asset): https://novosibirsk.kamprok.ru/img/1015/gs_4.jpg
-- Customer Review Photo 1 (asset): https://novosibirsk.kamprok.ru/img//1015/f1745916071.jpg
-- Customer Review Photo 2 (asset): https://novosibirsk.kamprok.ru/img//1015/f1745663711.jpg
-
 
 ## Additional Considerations
 
