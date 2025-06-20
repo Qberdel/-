@@ -1,0 +1,208 @@
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 13% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 13% 13%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8% 46%;
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 13% 13%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 220 100% 50%;
+    --radius: 0.5rem;
+    
+    /* Construction-specific colors */
+    --construction-orange: 25 95% 53%;
+    --construction-orange-foreground: 0 0% 98%;
+    --construction-blue: 220 100% 50%;
+    --construction-blue-foreground: 0 0% 98%;
+    --construction-gray: 220 9% 46%;
+    --construction-gray-light: 220 14% 96%;
+    --construction-success: 142 76% 36%;
+    --construction-success-foreground: 0 0% 98%;
+  }
+
+  .dark {
+    --background: 220 13% 9%;
+    --foreground: 0 0% 95%;
+    --card: 220 13% 9%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 13% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 220 100% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 8% 65%;
+    --accent: 220 13% 15%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 15%;
+    --input: 220 13% 15%;
+    --ring: 220 100% 50%;
+    
+    /* Construction-specific colors for dark mode */
+    --construction-orange: 25 95% 53%;
+    --construction-orange-foreground: 0 0% 98%;
+    --construction-blue: 220 100% 50%;
+    --construction-blue-foreground: 0 0% 98%;
+    --construction-gray: 220 8% 65%;
+    --construction-gray-light: 220 13% 15%;
+    --construction-success: 142 76% 36%;
+    --construction-success-foreground: 0 0% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Construction-specific utility classes */
+.construction-orange {
+  background-color: hsl(var(--construction-orange));
+  color: hsl(var(--construction-orange-foreground));
+}
+
+.construction-blue {
+  background-color: hsl(var(--construction-blue));
+  color: hsl(var(--construction-blue-foreground));
+}
+
+.construction-gray {
+  color: hsl(var(--construction-gray));
+}
+
+.construction-gray-bg {
+  background-color: hsl(var(--construction-gray-light));
+}
+
+.construction-success {
+  background-color: hsl(var(--construction-success));
+  color: hsl(var(--construction-success-foreground));
+}
+
+/* Hero section styling */
+.hero-gradient {
+  background: linear-gradient(135deg, hsl(var(--construction-blue)) 0%, hsl(var(--construction-orange)) 100%);
+}
+
+.hero-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+}
+
+/* Service card hover effects */
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Pricing table styling */
+.pricing-table {
+  border-collapse: collapse;
+}
+
+.pricing-table th {
+  background-color: hsl(var(--construction-blue));
+  color: hsl(var(--construction-blue-foreground));
+}
+
+.pricing-table tr:nth-child(even) {
+  background-color: hsl(var(--construction-gray-light));
+}
+
+/* Gallery image styling */
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonial card styling */
+.testimonial-card {
+  border-left: 4px solid hsl(var(--construction-orange));
+}
+
+/* Contact form styling */
+.contact-form {
+  background: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--construction-gray-light)) 100%);
+}
+
+/* Mobile-first responsive utilities */
+@media (max-width: 768px) {
+  .mobile-stack {
+    flex-direction: column;
+  }
+  
+  .mobile-full {
+    width: 100%;
+  }
+  
+  .mobile-text-center {
+    text-align: center;
+  }
+}
+
+/* Professional button styling */
+.btn-construction {
+  background: linear-gradient(135deg, hsl(var(--construction-orange)) 0%, hsl(var(--construction-blue)) 100%);
+  color: hsl(var(--construction-orange-foreground));
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-construction:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Section spacing */
+.section-padding {
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 6rem 2rem;
+  }
+}
+
+/* Typography enhancements */
+.heading-gradient {
+  background: linear-gradient(135deg, hsl(var(--construction-blue)) 0%, hsl(var(--construction-orange)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Footer styling */
+.footer-bg {
+  background: linear-gradient(135deg, hsl(var(--construction-blue)) 0%, hsl(220 100% 40%) 100%);
+}
